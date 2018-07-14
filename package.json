@@ -1,0 +1,27 @@
+{
+  "name": "fcoin-api",
+  "version": "1.1.3",
+  "description": "node-fcoin is a full implementation for FCoin cryptocurrency exchange trading API.",
+  "main": "index.js",
+  "dependencies": {
+    "node-fetch": "^2.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fcoin-com/node-fcoin.git"
+  },
+  "keywords": [
+    "api",
+    "fcoin"
+  ],
+  "author": "fcoin-com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fcoin-com/node-fcoin/issues"
+  },
+  "homepage": "https://github.com/fcoin-com/node-fcoin#readme"
+}
