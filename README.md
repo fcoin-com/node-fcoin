@@ -25,30 +25,58 @@ fcoin.createOrder('ftusdt', 'buy', 'limit', 0.01, 0.01).then(console.log);
 
 # Publlic API
 
+The public API does not require passing an API key.
+
 ## getServerTime()
+
+Gets server time.
 
 ## getCurrencies()
 
+Gets available currencies.
+
 ## getSymbols()
+
+Gets available trading pairs.
 
 ## getTicker(symbol)
 
+Gets ticker data.
+
 ## getDepth(symbol, level = 'L20')
+
+Gets market depth data.
 
 ## getTrades(symbol, before, limit = 20)
 
+Gets recent market trades.
+
 ## getCandles(symbol, resolution, before, limit = 20)
+
+Gets OHLCV data.
 
 # Authenticated API
 
+The authenticated API requires an API key applied from the settings page. 
+
 ## getBalance()
 
-## createOrder(symbol, side, type, price, amount
+## createOrder(symbol, side, type, price, amount)
+
+Creates a new order.
 
 ## getOrders(symbol, state, before, after, limit = 20)
 
+Gets orders.
+
 ## getOrder(id)
+
+Gets the order with specified id.
 
 ## cancelOrder(id)
 
+Cancels the order with specified id.
+
 ## getOrderMatchResults(id)
+
+Gets match result for the order with specified id.
